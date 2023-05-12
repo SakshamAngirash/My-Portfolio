@@ -1,37 +1,37 @@
+import blkimg from "../assets/blockchain.jpg";
+import webdev from "../assets/webdev.jpg";
 const Experience = () => {
   return (
-    <div className="experience">
-      <h2>Skills</h2>
+    <section className="projects">
+      <h2>SkillSet</h2>
 
-      <ul>
-        <li>
-          <b>Blockchain Development</b>
-          <ul>
-            <li>Solidity</li>
-            <li>ethers.js</li>
-            <li>web3.js</li>
-            <li>Hardhat</li>
-            <li>Truffle</li>
-            <li>DApp Development</li>
-          </ul>
-        </li>
-        <li>
-          <b>Web Development</b>
-          <ul>
-            <li>MERN Stack</li>
-          </ul>
-        </li>
-        <li>
-          <b>Programming Languages</b>
-          <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+      <div className="projects__cards">
+        <div className="projects__card">
+          <h3>Blockchain Development</h3>
+          <img src={blkimg} alt="BlockChain Development" />
+          <p>
+            Proficient in{" "}
+            <strong>
+              Solidity, Ethers.js, Web3.js, Hardhat, Truffle, DApp development,
+              and IPFS,
+            </strong>{" "}
+            I deliver exceptional results in Blockchain development, crafting
+            cutting-edge decentralized applications for the future.
+          </p>
+        </div>
+
+        <div className="projects__card">
+          <h3>Full Stack Web Development</h3>
+          <img src={webdev} alt="Web Development" />
+          <p>
+            Skilled in <strong>MERN</strong> stack, I excel at building modern
+            web applications using
+            <strong> MongoDB, Express.js, React, and Node.js,</strong>{" "}
+            delivering seamless user experiences and robust functionality.
+          </p>
+        </div>
+      </div>
+    </section>
   );
 };
 
