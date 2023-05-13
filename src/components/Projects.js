@@ -5,7 +5,7 @@ import aave from "../assets/aave.png";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="Projects">
       <h2>My Projects</h2>
 
       <div className="projects__cards">

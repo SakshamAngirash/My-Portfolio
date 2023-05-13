@@ -1,8 +1,9 @@
 import blkimg from "../assets/blockchain.jpg";
 import webdev from "../assets/webdev.jpg";
+import programming from "../assets/programming.jpg";
 const Experience = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="Skills">
       <h2>SkillSet</h2>
 
       <div className="projects__cards">
@@ -28,6 +29,18 @@ const Experience = () => {
             web applications using
             <strong> MongoDB, Express.js, React, and Node.js,</strong>{" "}
             delivering seamless user experiences and robust functionality.
+          </p>
+        </div>
+
+        <div className="projects__card">
+          <h3>Programming Languages</h3>
+          <img src={programming} alt="Web Development" />
+          <p>
+            Experienced in <strong>C, C++, Python, JavaScript, </strong> and{" "}
+            <strong>DSA,</strong> I leverage my versatile programming skills to
+            develop efficient and dynamic solutions across various domains,
+            emphasizing strong <strong>data structures and algorithms</strong>{" "}
+            knowledge.
           </p>
         </div>
       </div>

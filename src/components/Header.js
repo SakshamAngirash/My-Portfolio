@@ -3,7 +3,7 @@ import profile from "../assets/profile.png";
 
 const Header = () => {
   return (
-    <section className="header">
+    <section className="header" id="headere">
       <img src={profile} alt="John Doe" />
 
       <div className="header__content">
